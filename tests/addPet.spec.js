@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { USERS } from '../data/users.js';
-import { LoginPage } from '../pages/loginPage.js';
-import { HomePage } from '../pages/homePage.js';
-import { PetsPage } from '../pages/petsPage.js';
+import { LoginPage } from '../pages/LoginPage.js';
+import { HomePage } from '../pages/HomePage.js';
+import { PetsPage } from '../pages/PetsPage.js';
 import { CreatePetsPage } from '../pages/CreatePetsPage.js';
 
 test('Create new pet', async ({ page }) => {
